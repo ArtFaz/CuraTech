@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard"
+    android:background="@drawable/fundo_2_curatech_sem_banding">
+
+    <GridLayout
+        android:id="@+id/main_layout"
+        android:layout_width="408dp"
+        android:layout_height="561dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="37dp"
+        android:columnCount="3"
+        android:padding="16dp"
+        android:rowCount="3"
+        android:useDefaultMargins="true"
+        app:layout_constraintBottom_toTopOf="@+id/iniciar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Incisas ou Cortantes"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            app:icon="@null"
+            app:strokeWidth="4dp"
+            app:strokeColor="#6750a4"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Corto\n-\ncontusa"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            app:strokeWidth="4dp"
+            app:strokeColor="#6750a4"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Perfurante"
+            android:textSize="11sp"
+            android:textColor="@android:color/white"
+            app:strokeWidth="4dp"
+            app:strokeColor="#6750a4"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button4"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Pérfuro\n-\ncontusas"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            app:strokeWidth="4dp"
+            app:strokeColor="#6750a4"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button5"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Lácero\n-\ncontusas"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            app:strokeWidth="4dp"
+            app:strokeColor="#6750a4"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button6"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Perfuro\n-\nincisas"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            app:strokeWidth="4dp"
+            app:strokeColor="#6750a4"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button7"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Escoriações"
+            android:textSize="10sp"
+            android:textColor="@android:color/white"
+            app:strokeWidth="4dp"
+            app:strokeColor="#6750a4"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button8"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Equimoses\ne\nhematomas"
+            android:textSize="10sp"
+            android:textColor="@android:color/white"
+            app:strokeWidth="4dp"
+            app:strokeColor="#6750a4"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button9"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Curativos"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            app:strokeWidth="4dp"
+            app:strokeColor="#6750a4"
+            />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/iniciar"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush"
+        android:layout_width="205.5dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Início"
+        android:textColor="#757575"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/dashboard"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Dialog"
+        android:layout_width="205.5dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Categorias"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
